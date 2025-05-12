@@ -3,9 +3,13 @@
 A project that displays user information retrieved from an external API with a search interface, city filter, skeleton loader, and user details displayed upon clicking each user.
 
 ## ScreenShots:
+### Dashboard
 ![Dashboard](./screenshots/dashboard.png)
+### Detalis
 ![Detalis](./screenshots/detalis.png)
+### Search
 ![Search](./screenshots/search.png)
+### Select
 ![Select](./screenshots/select.png)
 
 ## ⚙️ How to Use
