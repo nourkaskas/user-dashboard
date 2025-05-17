@@ -12,9 +12,13 @@ const UserCard = ({ user }) => (
     <h2 className="text-xl font-semibold font-serif text-teal-800">
       {user.name}
     </h2>
-    <p className="font-serif">Email: {user.email}</p>
-    <p className="font-serif">City: {user.address.city}</p>
-    <p className="font-serif">Phone: {user.phone}</p>
+    <p className="font-serif">
+      ✉️ Email:<span className="text-blue-500 underline">{user.email}</span>{" "}
+    </p>
+    <p className="font-serif">🏢 City: {user.address.city}</p>
+    <p className="font-serif">
+      ☎️ Phone: <span className="text-green-600 underline">{user.phone}</span>
+    </p>
     <Link
       to={`/users/${user.id}`}
       className="text-teal-500 hover:underline mt-2 inline-block font-semibold font-serif"

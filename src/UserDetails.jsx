@@ -50,25 +50,26 @@ const UserDetails = () => {
         </h1>
         <div className="space-y-2 text-gray-800">
           <p className="font-serif">
-            <strong>Email:</strong> {user.email}
+            <strong>✉️ Email:</strong>{" "}
+            <span className="text-blue-500 underline">{user.email}</span>
           </p>
           <p className="font-serif">
-            <strong>Username:</strong> {user.username}
+            <strong>👱🏻 Username:</strong> {user.username}
           </p>
           <p className="font-serif">
-            <strong>Phone:</strong> {user.phone}
+            <strong>☎️ Phone:</strong> {user.phone}
           </p>
           <p className="font-serif">
-            <strong>Website:</strong> {user.website}
+            <strong>🌐 Website:</strong> {user.website}
           </p>
           <p className="font-serif">
-            <strong>City:</strong> {user.address.city}
+            <strong>🏢 City:</strong> {user.address.city}
           </p>
           <p className="font-serif">
-            <strong>Street:</strong> {user.address.street}
+            <strong>📍 Street:</strong> {user.address.street}
           </p>
           <p className="font-serif">
-            <strong>Company:</strong> {user.company.name}
+            <strong>🏭 Company:</strong> {user.company.name}
           </p>
         </div>
         <Link
