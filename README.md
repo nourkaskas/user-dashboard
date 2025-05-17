@@ -4,9 +4,9 @@ A project that displays user information retrieved from an external API with a s
 
 ## ScreenShots:
 ### Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboardScreen.png)
 ### Detalis
-![Detalis](./screenshots/detalis.png)
+![Detalis](./screenshots/detalisScreen.png)
 ### Search
 ![Search](./screenshots/search.png)
 ### Select

@@ -17,7 +17,7 @@ const UserCard = ({ user }) => (
     </p>
     <p className="font-serif">🏢 City: {user.address.city}</p>
     <p className="font-serif">
-      ☎️ Phone: <span className="text-green-600 underline">{user.phone}</span>
+      ☎️ Phone: <span className="text-green-600 underline ">{user.phone}</span>
     </p>
     <Link
       to={`/users/${user.id}`}
